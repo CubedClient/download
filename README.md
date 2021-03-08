@@ -5,4 +5,4 @@ Head to [releases](https://github.com/CubedClient/download/releases) and downloa
 No, the launcher comes prepared with an auto-updater.
 
 ## Issues
-Please go to [The Issues Page][https://github.com/CubedClient/CubedClient-Issues] to report any bugs and suggestions.
+Please go to [The Issues Page](https://github.com/CubedClient/CubedClient-Issues) to report any bugs and suggestions.
