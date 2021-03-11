@@ -1,0 +1,155 @@
+/**
+ * Animated Elements.
+ */
+ :root {
+    --size: 140px;
+    font-size: 13px;
+}
+
+#Top_LC {
+    opacity: 0;
+    animation: rectFade 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    animation-delay: 2.85s;
+}
+#Moon_LC {
+    opacity: 0;
+    animation: moonFade 0.5s ease-in-out forwards;
+    transform-origin: center;
+    animation-delay: 2.5s;
+}
+#Text_LC {
+    opacity: 0;
+    animation: textFade 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+    animation-delay: 3s;
+}
+h1 {
+    animation: pulsatingH1 3s linear infinite;
+    animation-delay: 3.5s;
+}
+h3 {
+    animation: pulsatingH3 3s linear infinite;
+    animation-delay: 3.5s;
+}
+#Bottom_LC {
+    opacity: 0;
+    animation: bottomFade 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+    animation-delay: 2.85s;
+}
+#moonsworth {
+    opacity: 0;
+    animation: moonsworthFlyIn 1.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+}
+#Star_1_LC {
+    opacity: 0;
+    animation: starFade 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+    animation-delay: 4s;
+}
+#Star_2_LC {
+    opacity: 0;
+    animation: starFade 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+    animation-delay: 4.5s;
+}
+#Star_3_LC {
+    opacity: 0;
+    animation: starFade 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+    animation-delay: 5s;
+}
+#Star_4_LC {
+    opacity: 0;
+    animation: starFade 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+    animation-delay: 5.5s;
+}
+#Star_5_LC {
+    opacity: 0;
+    animation: starFade 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+    animation-delay: 6s;
+}
+#Star_6_LC {
+    opacity: 0;
+    animation: starFade 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+    animation-delay: 6.5s;
+}
+#Star_7_LC {
+    opacity: 0;
+    animation: starFade 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+    animation-delay: 7s;
+}
+#Star_8_LC {
+    opacity: 0;
+    animation: starFade 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    transform-origin: center;
+    animation-delay: 7.5s;
+}
+
+/**
+ * Element Styling.
+ */
+body {
+    background-color: #1c1a1b;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+svg {
+    overflow: visible !important;
+    width: var(--size);
+    height: var(--size);
+}
+
+.svgWrapper {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 1.05rem;
+    font-style: italic;
+    opacity: 75%;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 1.0rem;
+    font-style: italic;
+    opacity: 75%;
+    text-align: center;
+}
+
+img {
+    height: var(--size);
+    width: var(--size);
+}
+
+#loadingWrapper {
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
